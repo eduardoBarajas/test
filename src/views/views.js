@@ -1,0 +1,10 @@
+import About from './about/about';
+import Home from './general/home';
+import Users from './users/users';
+import Splash from './splash/splash';
+import IndexClients from './clients';
+import DashboardStore from './dashboards/store/index';
+import ViewNotFound from './view_not_found/view_not_found';
+import BaseView from './base/base';
+import LogIn from './general/login';
+export {About, Home, Users, Splash, IndexClients, DashboardStore, ViewNotFound, BaseView, LogIn};

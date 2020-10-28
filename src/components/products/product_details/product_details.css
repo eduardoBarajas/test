@@ -1,0 +1,59 @@
+.product-details-container {
+    width: 100%;
+    min-height: calc(100vh - 15vh);
+}
+
+.prodcut-details-parent-div {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/codens-18ad2.appspot.com/o/food_background.png?alt=media);
+    z-index: 0;
+}
+
+.overlay {
+    background-color: rgba(39, 32, 38, 0.97);
+}
+
+.product-details-container > h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-details-content {
+    padding: 4em 0;
+}
+
+@media (max-width: 425px) {
+    .product-details-content {
+        padding: 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .product-details-content {
+        padding: 4em 0;
+    }
+}
+
+.product-details-content .card {
+    min-height: 75vh;
+}
+
+.reviews_container .content {
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.product_name_details {
+    margin: 1em;
+    padding: 1em;
+}
+
+.quantity_selector_container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.1em!important;
+    margin-right: 0.1em!important;
+}
+
+
+
+

@@ -1,0 +1,19 @@
+.back_button {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    line-height: 0px;
+    padding-left: 1em;
+}
+
+#logo-container {
+    padding-left: 1em;
+}
+
+.nav_bar_icon_text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    vertical-align: top;
+}

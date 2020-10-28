@@ -1,0 +1,119 @@
+
+.product_div {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px!important;
+}
+.product, .product--blue, .product--orange, .product--red, .product--teal, .product--purple, .product--dark, .product--green, .product--yellow, .product--pink {
+    webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 1px 5px 15px #ccc;*/
+    /*width: 15em;*/
+    height: auto;
+    border-radius: 3px;
+    padding: 2em;
+    /*margin: 1em;*/
+    overflow: hidden;
+    position: relative;
+    flex: auto;
+}
+
+.fab-product-card {
+    position: absolute;
+    bottom: 0px;
+    top: 5%;
+    left: 5%;
+}
+
+.product-content-info {
+    position: relative;
+    left: 50%;
+}
+
+.product-content-image {
+    width: 15em;
+    position: relative;
+    right: 30%;
+}
+
+.product--blue {
+    background: linear-gradient(-45deg, #1976D2 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--orange {
+    background: linear-gradient(-45deg, #F57C00 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--red {
+    background: linear-gradient(-45deg, #e84855 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--dark {
+    background: linear-gradient(-45deg, #2b2d42 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--purple {
+    background: linear-gradient(-45deg, #7B1FA2 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--green {
+    background: linear-gradient(-45deg, #4CAF50 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--teal {
+    background: linear-gradient(-45deg, #70c1b3 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--yellow {
+    background: linear-gradient(-45deg, #e8db7d 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product--pink {
+    background: linear-gradient(-45deg, #ff386d 60%, rgba(255, 255, 255, 0.5) 50%);
+}
+.product img, .product--blue img, .product--orange img, .product--dark img, .product--purple img, .product--teal img, .product--red img, .product--green img, .product--yellow img, .product--pink img {
+    height: auto !important;
+}
+.product_inner {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.product_info {
+    float: right;
+    color: whitesmoke;
+    width: 15em;
+}
+.product_inner p {
+    color: rgba(255, 250, 250, 0.9);
+}
+.product_inner a {
+    color: #fff;
+    cursor: pointer;
+    transition: background ease-in 0.25s;
+}
+.product_inner a:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #2b2d42;
+}
+.product_inner a:hover:before {
+    color: #2b2d42;
+}
+.product_overlay {
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-500px);
+    opacity: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product_overlay h2 {
+    color: rgba(43, 45, 66, 0.7);
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+.product_overlay i {
+    color: rgba(43, 45, 66, 0.7);
+    font-size: 1.5em;
+}

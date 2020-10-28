@@ -1,0 +1,26 @@
+.product_review_content {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.product_review_creator {
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.5;
+    display: inline-block;
+    margin: 0 0 1em 0;
+}
+
+.product_review_title {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.product_review_content {
+    padding: 0.3em 2em;
+}

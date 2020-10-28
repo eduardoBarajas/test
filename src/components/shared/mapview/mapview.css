@@ -1,0 +1,81 @@
+#map {
+    height: 180px;
+}
+
+@media(max-width: 768px) {
+    img {
+        height: 30vh;
+    }
+}
+
+.mapCard {
+    margin: 0px!important;
+    height: 100%;
+}
+
+.mapCard:focus {
+    outline: 0px;
+}
+
+.mapCardAction {
+    margin-top: 4em;
+}
+
+.mapCardAction > a {
+    color: whitesmoke!important;
+}
+
+.mapCard-content {
+    height: 65vh;
+    padding: 0px!important;
+}
+
+.mapCard-title {
+    margin-bottom: 0px!important;
+}
+
+.mapContainer {
+    /*height: 350px;*/
+    height: 100%;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+.input_direction_map {
+    width: 65%!important;
+    height: 1.5em!important;
+    margin-left: 3em!important;
+    margin-top: 1em!important;
+}
+
+.input_direction_icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.input_direction_label {
+    margin-left: 3.5em!important;
+}
+
+.input-field > label:not(.label-icon).active {
+    -webkit-transform: translateY(-5px) scale(0.8);
+    transform: translateY(-5px) scale(0.8)!important;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.btn-guardar-map {
+    width: 100%;
+    text-align: center;
+}
+
+#btn_buscar_address {
+    width: 5%;
+    margin-left: 0.1em;
+    padding-right: 0.5em;
+    padding-top: 0.3em;
+}
+
+.autocomplete-content {
+    max-height: 60vh!important;
+}

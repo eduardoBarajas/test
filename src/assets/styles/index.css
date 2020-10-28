@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    Roboto;
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.error-toast {
+  background-color: tomato;
+}
+
+.success-toast {
+  background-color: #4CAF50;
+}
+
+.tabs .tab a i {
+  margin: 0.5em 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px!important;
+}
+
+.mx-0 {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+.my-1 {
+  margin-top: 1em!important;
+  margin-bottom: 1em!important;
+}
+
+.mx-1 {
+  margin-left:1em!important;
+  margin-right: 1em!important;
+}
+
+.mb-0 {
+  margin-bottom: 0px!important;
+}
+
+.tabs .tab a {
+  overflow: visible;
+  width: max-content;
+  display: block;
+}
+
+.btn-back {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.w-75 {
+  width: 75%!important;
+}
+
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.w-90 {
+  width: 90%!important;
+}
+
+.w-95 {
+  width: 95%!important;
+}
+
+.w-100 {
+  width: 100%!important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.hr-no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+/*Clase usada en el boton para el dropdown que se utilizara para elegir un tipo de filtro, para posicionarlo en la parte superior derecha*/
+.top_right_dropdown_btn {
+  position: relative;
+  left: 35%;
+}
+
+.dark-primary-color    { background: #1976D2; }
+.default-primary-color { background: #2196F3; }
+.light-primary-color   { background: #BBDEFB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #4CAF50; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+.darkest-color         { background-color: rgb(39, 32, 38); }
+.white_background      { background-color: rgba(255, 255, 255, 1); }
+.green-background      { background: #8bc34a;}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*ESTILOS PARA CARDS*/
+.cards {
+  background: white;
+}
+
+.cards .row {
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.cards .card {
+  background: transparent;
+      box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  /*padding: 4px 30px 20px;*/
+  /*min-height: 380px;*/
+}
+
+.cards.container {
+  width: 100%;
+  max-width: none;
+  padding: 0 20px;
+  min-height: 75vh;
+}
+
+@keyframes color_change {
+	from { color: white; width: 3em; height: 3em;}
+	to { color: rgba(114, 5, 182, 0.8); width: 2.8em; height: 2.8em; }
+}
+@-webkit-keyframes color_change {
+	from { color: white; width: 3em; height: 3em;}
+	to { color: rgba(114, 5, 182, 0.8); width: 2.8em; height: 2.8em; }
+}
+.icon_camera {
+    width: 3em!important;
+    height: 3em!important;
+}
+
+.icon_camera_loading {
+    animation: color_change 1s infinite alternate;
+}
+
+.add_image_button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    background-color: rgba(56,142,60 ,1)!important;
+    color: white!important;
+}
+
+.add_image_button_loading {
+    background-color: whitesmoke!important;
+    color: rgba(114, 5, 182, 0.8)!important;
+}
+
+.add_image_button:hover {
+    color: rgba(114, 5, 182, 0.8)!important;
+    background-color: whitesmoke!important;
+}
